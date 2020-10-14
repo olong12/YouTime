@@ -1,0 +1,72 @@
+* {
+	color: #e1e1e1;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* sets it this color if the browser does not support gradients */
+	background: #18018a;
+	/* makes the graidents that does not repeat */
+	background-repeat: no-repeat;
+	background: -webkit-linear-gradient(to bottom right, #18018a, #4c0086);
+	background: -moz-linear-gradient(to bottom right, #18018a, #4c0086);
+	background: -ms-linear-gradient(to bottom right, #18018a, #4c0086);
+	background: -o-linear-gradient(to bottom right, #18018a, #4c0086);
+	background: linear-gradient(to bottom right, #18018a, #4c0086);
+}
+#scroll {
+	flex-direction: column;
+}
+#header {
+	letter-spacing: 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Need to move the icon to the right but idk how to make it work */
+.fas fa-bars {
+	display: flex;
+	align-self: flex-end;
+}
+
+#body {
+	text-align: center;
+	padding: 10%;
+}
+
+#main-text {
+	padding: 10%;
+}
+
+/* Code not in the DOM when initulaized */
+#star-large {
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: red;
+}
+#star-small {
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: red;
+}
+
+/* Test Code not real code */
+#header {
+	border: green solid 2px;
+}
