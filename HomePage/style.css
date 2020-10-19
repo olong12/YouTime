@@ -21,7 +21,9 @@ body {
 #scroll {
 	flex-direction: column;
 }
+
 #header {
+	padding: 1% 0;
 	letter-spacing: 3px;
 	display: flex;
 	flex-direction: row;
