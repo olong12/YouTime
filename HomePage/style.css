@@ -1,3 +1,4 @@
+/* Gobal Values */
 * {
 	color: #e1e1e1;
 	font-family: 'Quicksand', sans-serif;
@@ -39,6 +40,7 @@ body {
 	padding: 10%;
 }
 
+/* Start Section One */
 .section_one {
 	padding: 0 0 3%;
 }
@@ -61,8 +63,10 @@ body {
 .fa-caret-down {
 	display: flex;
 	justify-content: center;
+	transition-property: opacity;
 }
 
+/* Start of Section Two */
 .section_two {
 	text-align: center;
 	padding: 2% 0 5%;
