@@ -4,16 +4,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="shortcut icon" href="#" type="image/x-icon">
+        <title>YouTime</title>
+        <link rel="shortcut icon" href="../Img/image.png" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     </head>
     <body>
 <!-- 
-    the Scroll cirlces
+    The Scroll cirlces indecating where you are in respect to the page hieght 
         <div class="scroll">
             <i class="fas fa-circle"></i>
             <i class="far fa-circle"></i>
@@ -23,17 +24,87 @@
 -->
 
         <div class="content">
-            <div id="header">
-                <h4>YouTime</h4>
-                <i class="fas fa-bars"></i>
-            </div>
-            <div class="container" id="body">
-                <div class="container" id="main-text">
-                    <h1>Welcome to YouTime</h1>
-                    <h3>Schedule, To-Do List and Task Manager Organizor</h3>
+                <div id="header">
+                    <h4>YouTime</h4>
+                    <i class="fas fa-bars"></i>
                 </div>
-                <button type="button" class="btn btn-outline-success btn-lg">START</button>        
+
+            <!-- First Section -->
+            <div class="section_one">
+                <div class="container" id="body">
+                    <div class="container" id="main-text">
+                        <h1>Welcome to YouTime</h1>
+                        <h3>Schedule, To-Do List and Task Manager Organizor</h3>
+                    </div>
+                    <button type="button" class="btn btn-outline-success btn-lg">START</button>
+                    <span class="scroll_icon">
+                        <i class="fas fa-caret-down fa-4x" hidden></i>        
+                    </span>
+                </div>
             </div>
+
+            <!-- Second Section -->
+            <div class="section_two">
+                <div class="container">
+                    <h1>Schedule</h1>
+                    <p>The schedule page provides a brief overview of your month. Selecting a date will bring you to your To-Do List for that day.</p>
+                </div>
+            </div>
+
+            <!-- Theird Section -->
+            <div class="section_three">
+                <div class="container">
+                    <h1>To-Do List</h1>
+                    <p>Your To-Do List gives you all of your scheduling information for your day at a glance. You can see the events that are scheduled for that day, and also if any task deadlines are coming up.</p>
+                </div>
+            </div>
+
+            <!-- Fourth Section -->
+            <div class="section_four">
+                <div class="container">
+                    <h1>Point System</h1>
+
+                    <div class="point_example">
+                        <h4>Current Points :</h4>
+                        <span class="example_points">00</span>
+                    </div>
+
+                    <div class="urgent_example">
+                        <h4>Urgent Tasks :</h4>
+                        <div class="example_tasks">
+                            <h5>Finsh Project</h6>
+                            <h6>Time Left :</h6>
+                            <span>00</span>
+                        </div>
+                        <div class="example_tasks">
+                            <h5>Finsh HW:</h6>
+                            <h6>Time Left :</h6>
+                            <span>00</span>
+                        </div>
+                    </div>
+
+                    <!-- Firth Section -->
+                    <div class="section_five">
+                        <div class="container">
+                            <h1>About YouTime</h1>
+                            <div class="aboutUs_question1">
+                                <h3>So how did YouTime come to be?</h3>
+                                <p>We officially established YouTime as a group of four in Sept 2020, at the beginning of the decal, Cubstart. We have learned so much throughout the past few monthes regarding programming in general and web app design, and now that we're done with it, we want to share a basic app that is helpful to everyone.</p>    
+                            </div>
+                            <div class="aboutUs_question2">
+                                <h3>Additinal Questions <br> Contact us via email!</h3>
+                                <p>andyc789@berkeley.edu<br>sergiopeter2016@berkeley.edu<br>adrian.reyes@berkeley.edu<br>olong@berkeley.edu</p>    
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            
+
+
         </div>
         
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,9 +1,12 @@
 const WINDOW_LENGTH = window.innerWidth
 const WINDOW_HEIGHT = window.innerHeight
 const NUM_OF_STARS = 50
+const scroll_icon = document.getElementsByClassName('fa-caret-down')[0]
 let large = false
 let starW = 0
 let starH = 0
+
+
 
 for(i = 0; i < NUM_OF_STARS; i++){
     if (large){
