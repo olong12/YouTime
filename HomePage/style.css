@@ -81,6 +81,59 @@ body {
 	font-size: 20px;
 }
 
+/* Start of Section Three */
+.section_three {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_three div h1 {
+	font-size: 40px;
+}
+.section_three div p {
+	padding: 2%;
+	font-size: 20px;
+}
+
+/* Start of Section Four */
+.section_four {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_four div h1 {
+	font-size: 40px;
+}
+.section_four div p {
+	padding: 2%;
+	font-size: 20px;
+}
+.section_four .point_example {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.section_four .urgent_example {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.section_four .urgent_example .time_left_example {
+	display: flex;
+}
+
+/* Start of Section Five */
+.section_five {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_five div h1 {
+	font-size: 40px;
+}
+.section_five div p {
+	padding: 2%;
+	font-size: 20px;
+}
+
 /* Code not in the DOM when initulaized */
 #star-large {
 	width: 10px;
