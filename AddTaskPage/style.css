@@ -1,0 +1,123 @@
+/* Gobal Values */
+* {
+	color: #e1e1e1;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* makes the graidents that does not repeat */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../Img/gradient.png);
+}
+#scroll {
+	flex-direction: column;
+}
+
+#header {
+	padding: 1% 0;
+	letter-spacing: 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Need to move the icon to the right but idk how to make it work */
+.fas fa-bars {
+	display: flex;
+	align-self: flex-end;
+}
+
+#body {
+	text-align: center;
+	padding: 10%;
+}
+
+#add-task-button {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputpage_title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputpage_body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Start Section One */
+.section_one {
+	padding: 0 0 3%;
+}
+
+#main-text {
+	padding: 10%;
+	letter-spacing: 2px;
+}
+
+#main-text h1 {
+	font-size: 60px;
+}
+
+#main-text h3 {
+	font-size: 25px;
+}
+.btn {
+	margin-bottom: 8%;
+}
+.fa-caret-down {
+	display: flex;
+	justify-content: center;
+	transition-property: opacity;
+}
+
+/* Start of Section Two */
+.section_two {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_two div h1 {
+	font-size: 40px;
+}
+.section_two div p {
+	padding: 2%;
+	font-size: 20px;
+}
+
+/* Code not in the DOM when initulaized */
+#star-large {
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: red;
+}
+#star-small {
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: red;
+}
+
+/* Test Code not real code */
+/* #header {
+	border: green solid 2px;
+} */
