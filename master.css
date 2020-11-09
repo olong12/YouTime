@@ -1,0 +1,321 @@
+/* Gobal Values */
+* {
+	color: #e1e1e1;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* makes the graidents that does not repeat */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../Img/gradient.png);
+}
+<<<<<<< HEAD
+#scroll {
+	flex-direction: column;
+}
+
+#header {
+	padding: 1% 0;
+	letter-spacing: 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Need to move the icon to the right but idk how to make it work */
+.fas fa-bars {
+	display: flex;
+	align-self: flex-end;
+}
+
+#body {
+	text-align: center;
+	padding: 10%;
+}
+
+#add-task-button {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputpage_title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputpage_body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Start Section One */
+.section_one {
+	padding: 0 0 3%;
+}
+
+#main-text {
+	padding: 10%;
+	letter-spacing: 2px;
+}
+
+#main-text h1 {
+	font-size: 60px;
+}
+
+#main-text h3 {
+	font-size: 25px;
+}
+.btn {
+	margin-bottom: 8%;
+}
+.fa-caret-down {
+	display: flex;
+	justify-content: center;
+	transition-property: opacity;
+}
+
+/* Start of Section Two */
+.section_two {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_two div h1 {
+	font-size: 40px;
+}
+.section_two div p {
+	padding: 2%;
+	font-size: 20px;
+}
+
+/* Code not in the DOM when initulaized */
+#star-large {
+	width: 10px;
+	height: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: red;
+}
+#star-small {
+	width: 5px;
+	height: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: red;
+}
+
+/* Test Code not real code */
+/* #header {
+	border: green solid 2px;
+} */
+/* Gobal Values */
+* {
+	color: #e1e1e1;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+::-webkit-scrollbar {
+	width: 25px;
+}
+::-webkit-scrollbar-track {
+	border: 7px solid #232943;
+	box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, .5);
+}
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(45deg, #06dee1, #79ff6c);
+	border-radius: 3px;
+}
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* makes the graidents that does not repeat */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../Img/gradient.png);
+}
+#header {
+	padding: 1% 0;
+	letter-spacing: 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+/* Need to move the icon to the right but idk how to make it work */
+.fas fa-bars {
+	display: flex;
+	align-self: flex-end;
+}
+#body {
+	text-align: center;
+	padding: 10%;
+}
+.section {
+	margin: 2% 0;
+}
+
+.section .container {
+	padding: 0 10%;
+}
+/* Start Section One */
+.section_one {
+	padding: 0 0 3%;
+}
+#main-text {
+	padding: 10%;
+	letter-spacing: 2px;
+}
+#main-text h1 {
+	font-size: 60px;
+}
+
+#main-text h3 {
+	font-size: 25px;
+}
+
+.btn {
+	margin-bottom: 8%;
+}
+.fa-caret-down {
+	display: flex;
+	justify-content: center;
+	transition-property: opacity;
+}
+/* Start of Section Two */
+.section_two {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_two div h1 {
+	font-size: 50px;
+}
+.section_two div p {
+	padding: 2%;
+	font-size: 30px;
+}
+/* Start of Section Three */
+.section_three {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_three div h1 {
+	font-size: 50px;
+}
+.section_three div p {
+	padding: 2%;
+	font-size: 30px;
+}
+/*
+
+
+
+ */
+
+/* Start of Section Four */
+.section_four {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_four div h1 {
+	font-size: 50px;
+}
+.point_example,
+.urgent_example {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 1%;
+	font-size: 20px;
+}
+.point_example h4,
+.urgent_example h4 {
+	font-size: 28px;
+}
+.point_example h5,
+.urgent_example h5 {
+	font-size: 25px;
+}
+.point_example h6,
+.urgent_example h6 {
+	font-size: 22px;
+}
+.time_left_example {
+	display: flex;
+	flex-direction: column;
+}
+.example_tasks {
+	padding: 0 2%;
+}
+.example_points1 {
+	padding: 2px 0 0 5px;
+}
+/*
+
+
+
+ */
+
+/* Start of Section Five */
+.section_five {
+	text-align: center;
+	padding: 2% 0 5%;
+}
+.section_five div h1 {
+	font-size: 50px;
+}
+.section_five div p {
+	padding: 2%;
+	font-size: 25px;
+}
+.section_two,
+.section_four {
+	background-color: rgba(0, 0, 0, .1);
+}
+/*
+
+
+ */
+a:link {
+	text-decoration: none;
+	color: #e1e1e1;
+	font-size: 20px;
+}
+/* Gobal Values */
+* {
+	color: #e1e1e1;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* makes the graidents that does not repeat */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../Img/gradient.png);
+}
